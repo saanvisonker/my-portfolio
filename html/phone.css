@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#navbar{
+    position: fixed;
+}
+#navbar ul li a {
+    text-decoration: none;
+
+    color: rgb(255, 62, 139);
+    }
+    #navbar ul {
+        display: flex;
+     margin-left: 20px;
+ }
+
+#HOME img {
+height: 300px;
+   overflow: visible;
+margin-top: 90px;
+border-radius: 10%;
+margin-left: auto;
+}
+#HOME h4 {
+font-size: 20px;
+margin-top: 160px;
+margin-left: 160px;
+}
+#HOME h3 {
+font-size: 17px;
+margin-left: 50px;
+display: inline-block;
+width: 700px;
+}
+#HOME h2 {
+font-size: 10px;
+margin-left: 50px;
+}
+#SKILLS ul {
+
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+    }
+    #SKILLS{
+    text-align: center;
+    
+    }
+    .skills{
+        height: 300px;
+        width: 300px;
+        border: 2px solid rgb(255, 62, 139) ;
+        box-shadow: 3px 3px 7px rgb(255, 62, 139);
+       border-radius: 10%;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+
+    
+    }
+    .skills img{align-content: center;
+        justify-content: center;
+        height: 100px;
+        margin-top: 40px;
+    border-radius: 50%;
+    border: 5px solid #ff3e8b;
+    box-shadow: 3px 3px 5px rgb(113, 113, 113);
+    }
